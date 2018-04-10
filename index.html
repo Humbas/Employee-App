@@ -1,0 +1,59 @@
+<!doctype html>
+<!--
+Techdegree| Project 10
+=====================================================================================
+by Humberto Ventura
+=====================================================================================
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <title>Employee Directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <!--wrapper-->
+   <div class="wrapper">
+   
+   <!--nav-->
+   <header>
+   <h1>Awesome Startup Employee Directory</h1>
+        <div class="search-bar">
+          <input class="search" id="user-search" list="matching-users" placeholder="Search"/>
+          <datalist id="matching-users"></datalist>
+        </div>
+        </header>
+     <!--nav-->
+       
+       <!--working area-->
+        <main>
+              <div id="employee"></div>
+              <!--overlay-->
+              <div id="overlay-wrapper">
+              <!--navigation-->
+                <span id="next">
+                  &#8811; 
+                </span>
+                <span id="previous">
+                 &#8810;
+                </span>
+                <!--navigation-->
+                <!--square for selected index-->
+                <div id="overlay-square">
+              </div>
+              <!--square for selected index-->
+              </div>
+              <!--overlay-->
+        </main>
+
+       <!--working area--> 
+         
+   </div>
+   <!--wrapper-->
+   
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/application.js"></script>
+</body>
+</html>
